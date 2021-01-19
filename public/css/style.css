@@ -1,0 +1,194 @@
+/* MENU */
+div#menuhorizontal {
+	background-color: green;
+}
+
+div#menuhorizontal ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+div#menuhorizontal li {
+  float: left;
+}
+
+div#menuhorizontal li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+div#menuhorizontal li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+div#menuhorizontal li.dropdown {
+  display: inline-block;
+}
+
+div#menuhorizontal .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+div#menuhorizontal .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+div#menuhorizontal .dropdown-content a:hover {background-color: #f1f1f1;}
+
+div#menuhorizontal .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+div#menuhorizontal li#about {
+	float:right
+}
+/* FIM MENU -----------------------------------------------------------*/
+
+/* PÁGINA EVENTOS */
+.formCampo{
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px 0px 10px 0px;
+  margin: 10px 0px 10px 0px;
+}
+/* FIM PÁGINA EVENTOS------------------------------------------------- */
+
+/* PÁGINA CONTATO */
+.formContato{
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px 0px 10px 0px;
+  margin: 10px 0px 10px 0px;
+}
+/* FIM PÁGINA CONTATO ---------------------------------------------------*/
+
+/* PÁGINA ENTRAR */
+
+.form-signin .form-control:focus {
+  z-index: 1;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/* FIM PÁGINA ENTRAR ----------------------------------------------------*/
+
+/*PÁGINA ADS*/
+/*div#conteudoAds{
+  text-align: center;
+  font-family: Arial;
+}*/
+
+#tabelaAds {
+  font-family: Arial;
+  font-size: 15px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tabelaAds td, #tabelaAds th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tabelaAds tr:nth-child(even){background-color: #f2f2f2;}
+
+#tabelaAds tr:hover {background-color: #ddd;}
+
+#tabelaAds th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #4CAF50;
+  color: white;
+}
+/*FIM DA PÁGINA ADS------------------------------------------------------------*/
+
+/* BOTÕES DOS FORMULÁRIOS */
+.botao:hover {
+  background-color: #45a049;
+}
+
+.botao {
+  background-color: #4cb050;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 15px;
+  display: block;
+  cursor: pointer;
+}
+/* FIM BOTÕES DOS FORMULÁRIOS ---------------------------------------------*/
+
+/* PÁGINA INDEX */
+.center{
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.item1 { 
+  text-align: center;
+  font-size: 80%;
+}
+
+.item2 { 
+  text-align: center;
+  font-size: 80%;
+}
+.item3 { 
+  text-align: center;
+  font-size: 80%;
+}
+.item4 { 
+  text-align: center;
+  font-size: 80%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 550px;
+}
+
+/* FIM PÁGINA INDEX -----------------------------------------------------*/
+
+#rodapeLogo{
+  margin: 10px;
+}
+p#rodape{
+  font-family: "Times New Roman";
+}
